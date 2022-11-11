@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/wwwsvtiindia/public_html
+group: wwwsvtiindia
+hascgi: 0
+homedir: /home/wwwsvtiindia
+ip: 103.93.17.162
+ipv6: ~
+owner: lovepro1
+phpopenbasedirprotect: 1
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@svtiindia.org
+serveralias: mail.svtiindia.org www.svtiindia.org
+servername: svtiindia.org
+ssl: 1
+usecanonicalname: 'Off'
+user: wwwsvtiindia
+userdirprotect: -1

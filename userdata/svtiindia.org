@@ -1,0 +1,25 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/svtiindia.org
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/svtiindia.org-bytes_log
+documentroot: /home/wwwsvtiindia/public_html
+group: wwwsvtiindia
+hascgi: 0
+homedir: /home/wwwsvtiindia
+ip: 103.93.17.162
+owner: lovepro1
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/wwwsvtiindia/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@svtiindia.org
+serveralias: mail.svtiindia.org www.svtiindia.org
+servername: svtiindia.org
+usecanonicalname: 'Off'
+user: wwwsvtiindia
