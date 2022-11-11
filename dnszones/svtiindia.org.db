@@ -1,0 +1,25 @@
+; cPanel first:94.0.2 (update_time):1668019074 Cpanel::ZoneFile::VERSION:1.3 hostname:server35.hostingraja.org latest:94.0.2
+; Zone file for svtiindia.org
+$TTL 14400
+svtiindia.org.	86400	IN	SOA	ns83.hostingraja.in.	amit\.batraonlineinfo.gmail.com.	(
+						2022110900 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+
+svtiindia.org.	86400	IN	NS	ns83.hostingraja.in.
+svtiindia.org.	86400	IN	NS	ns84.hostingraja.in.
+
+
+svtiindia.org.	14400	IN	A	103.93.17.162
+
+svtiindia.org.	14400	IN	MX	0	svtiindia.org.
+
+mail	14400	IN	CNAME	svtiindia.org.
+www	14400	IN	CNAME	svtiindia.org.
+ftp	14400	IN	A	103.93.17.162
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSmD8Ub8tBa6x0vmNEZ1BGU1UVy1GLwtykTu5cGpAKy4Yb2lbEK0oOTNy+hjCuLhpkNl7BDjfkYzIV7IJzya8LKbz/BQT++iOvkfU0fmKy78Jh0WC4w+FgrgeNqYEBkVvXYnjqoj6syxaH0pvNLxqTBqo1O+KVysEM0MIKqMKjufMck0Cvo3kOj3Q+tYEplSW" Yy86m864qcWe7Ecwna1BslM8IHYQbBVX3Ipbmw+iOnQ5N1G656TSx1vC67l5Ixto8mDRRZDDS1hWiQ8fLFSl5rbyT6ICdSDoRapWoMO7pQZ/eBvcXCwDAriIKr/y+b2GvBGlkrBEDiyBB9mClmDcwIDAQAB\;
+_cpanel-dcv-test-record	14400	IN	TXT	_cpanel-dcv-test-record=1R30GOIJ92XFGCBcj8NWq4K9GvX6wf_ZUAQf81UHZikX0zcEdP_yaTuleYOtnfTK
+_acme-challenge	14400	IN	TXT	q-4vB6rxmXFHC-U32frhi3sE_Ey72y9k0nIRrlhfjiQ
+svtiindia.org.	14400	IN	TXT	"v=spf1 +a +mx +ip4:103.93.17.162 +ip4:103.93.17.202 ~all"
